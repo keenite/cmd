@@ -8,7 +8,7 @@
 # Linux General Commands
 ## Linux Package Management
 Package list all the installed packages
-```
+```bash
 dpkg --list
 dpkg --listfiles <package name>
 ```
@@ -20,6 +20,6 @@ hexdump -n 1000 /dev/nvme0n1 -C
 ```
 
 ## Linux Tool Organization
-```
+```bash
 sudo update-alternatives --config gcc
 ```
