@@ -15,7 +15,7 @@ dpkg --listfiles <package name>
 
 ## String Operations
 Dump the device with strings.
-```shell
+```bash
 hexdump -n 1000 /dev/nvme0n1 -C 
 ```
 
