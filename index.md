@@ -7,8 +7,9 @@ dpkg --listfiles <package name>
 ```
 
 ## String Operations
-```
-hexdump -n 1000 /dev/nvme0n1 -C //dump with string 
+Dump the device with strings.
+```shell
+hexdump -n 1000 /dev/nvme0n1 -C 
 ```
 
 ## Linux Tool Organization
