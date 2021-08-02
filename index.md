@@ -23,19 +23,10 @@ Write data to file
 echo "0123456789abcdef" | dd of=/mnt/nfs_share/test.txt bs=1 seek=0 count=16
 ```
 Write 4k data to file
+
+### Printf
 * <N>	Any number: Specifies a minimum field width, if the text to print is shorter, it's padded with spaces, if the text is longer, the field is expanded
 * .	The dot: Together with a field width, the field is not expanded when the text is longer, the text is truncated instead. "%.s" is an undocumented equivalent for "%.0s", which will force a field width of zero, effectively hiding the field from output
- 
-```
- printf '%.0s../\n' ABCDEFG
- ../
- printf '%.1s../\n' ABCDEFG
- A../
- printf '%.2s../\n' ABCDEFG
- AB../
- printf '%.7s../\n' ABCDEFG
- ABCDEFG../
-```
  
 ```
 printf "0%.0s" {1..4096} > /mnt/nfs_share/4k.txt
