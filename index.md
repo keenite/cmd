@@ -18,6 +18,14 @@ Dump the device with strings.
 ```bash
 hexdump -n 1000 /dev/nvme0n1 -C 
 ```
+Write data to file
+```
+echo "0123456789abcdef" | dd of=/mnt/nfs_share/test.txt bs=1 seek=0 count=16
+```
+Write 4k data to file
+```
+printf "0%.0s" {1..4096} > /mnt/nfs_share/4k.txt
+···
 
 ## Linux Tool Organization
 ```bash
