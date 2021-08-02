@@ -1,9 +1,15 @@
 - [Linux General Commands](#linux-general-commands)
   * [Linux Package Management](#linux-package-management)
   * [String Operations](#string-operations)
+    + [Dump the device with strings.](#dump-the-device-with-strings)
+    + [Write certain strings to files](#write-certain-strings-to-files)
+    + [Covert numbers to binary or decimal](#covert-numbers-to-binary-or-decimal)
   * [Linux Tool Organization](#linux-tool-organization)
+  * [Device Info Commands](#device-info-commands)
+  * [Process related Commands](#process-related-commands)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # Linux General Commands
 ## Linux Package Management
