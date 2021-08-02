@@ -28,8 +28,8 @@ Write 4k data to file
  * <N>	Any number: Specifies a minimum field width, if the text to print is shorter, it's padded with spaces, if the text is longer, the field is expanded
  * .The dot: Together with a field width, the field is not expanded when the text is longer, the text is truncated instead. "%.s" is an undocumented equivalent for "%.0s", which will force a field width of zero, effectively hiding the field from output
 
- print 4096 0 s
-```
+```python
+ // print 4096 0 s
  printf "0%.0s" {1..4096}
 ```
 
