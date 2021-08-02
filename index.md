@@ -29,7 +29,7 @@ Write 4k data to file
  * .The dot: Together with a field width, the field is not expanded when the text is longer, the text is truncated instead. "%.s" is an undocumented equivalent for "%.0s", which will force a field width of zero, effectively hiding the field from output
 
 ```python
- // print 4096 0 s
+ # print 4096 0 s
  printf "0%.0s" {1..4096}
 ```
 
