@@ -68,3 +68,22 @@ return last return code
 ```bash
 echo $? 
 ```
+
+## Archive File
+Compress /home/test files into <filename>.tar
+* c – Creates a new .tar archive file.
+* v – Verbosely show the .tar file progress.
+* f – File name type of the archive file.
+```bash
+tar -cvf <filename>.tar /home/test
+tar cvzf <filename>.tgz /home/test
+tar cvfj <filename>.tar.bz2 /home/test
+```
+Untar tar Archive File
+```
+tar xvf <filename>.tar
+```
+Untar file to a folder
+```
+ tar -xvf <filename>.tar -C /home/dst
+```
