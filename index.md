@@ -87,3 +87,8 @@ Untar file to a folder
 ```
  tar -xvf <filename>.tar -C /home/dst
 ```
+
+## Default config
+```
+sudo update-alternatives --config editor
+```
