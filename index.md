@@ -18,6 +18,10 @@ Package list all the installed packages
 dpkg --list
 dpkg --listfiles <package name>
 ```
+## List all running services
+```
+sudo systemctl list-units --type=service 
+```
 
 ## String Operations
 ### Dump the device with strings.
