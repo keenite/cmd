@@ -23,6 +23,17 @@ dpkg --listfiles <package name>
 sudo systemctl list-units --type=service 
 ```
 
+## pushd and popd 
+```
+pushd <folder>
+pushd <folder1>
+pushd <folder2>
+
+will enter folder -> folder1 -> folder2
+
+popd will enter folder back
+```
+
 ## String Operations
 ### Dump the device with strings.
 ```bash
